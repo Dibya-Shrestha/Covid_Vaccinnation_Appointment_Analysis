@@ -13,8 +13,8 @@ The dataset was obtained from the NHS Digital portal and processed through SQL S
 ---
 
 ## 📁 Data Source
-- Dataset Name: GP_Appointment_Publication_Summary_May_2025  [Download Data Set here](https://github.com/Dibya-Shrestha/Client-Data-Cleaning-Project/raw/main/Client%20Data%20Cleaning%20Project.xlsx)
-- URL: 
+- Dataset Name: GP_Appointment_Publication_Summary_May_2025  [Download Data Set here](https://github.com/Dibya-Shrestha/Covid_Vaccinnation_Appointment_Analysis/blob/main/GP_Appointment_Publication_Summary_May_2025.xlsx))
+- URL: https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets
 ---
 
 ## 🛠 Tools & Technologies Used
@@ -28,7 +28,6 @@ The dataset was obtained from the NHS Digital portal and processed through SQL S
 
 1. **Download & Import**
    - Downloaded the Excel dataset `GP_Appointment_Publication_Summary_May_2025  `.
-   - Imported **Table 6** into SQL Server for data wrangling.
 
 2. **Wide to Long Format Conversion**
    - Transformed monthly columns (e.g. Jan–Dec) into row-based entries using SQL's `UNPIVOT`.
